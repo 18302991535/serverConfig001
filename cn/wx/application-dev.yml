@@ -1,10 +1,12 @@
+ProviderVersion:UserProvider0.0.1
+
 server:
   port: 8001
 spring:
   application:
     name: UserProvider
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/du1?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://db1:3306/springboot-005?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
     username: admin
     password: DEFdef123!
     driver-class-name: com.mysql.cj.jdbc.Driver
