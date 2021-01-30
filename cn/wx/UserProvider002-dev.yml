@@ -4,9 +4,9 @@ spring:
   application:
     name: UserProvider
   datasource:
-    url: jdbc:mysql://db1:3308/sprinboot01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://db1:3306/sprinboot11?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
     username: root
-    password: admin
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
